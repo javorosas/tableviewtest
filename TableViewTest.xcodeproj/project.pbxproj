@@ -15,6 +15,7 @@
 		3E8519351B01203B0041E45F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8519331B01203B0041E45F /* LaunchScreen.xib */; };
 		3E8519411B01203B0041E45F /* TableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8519401B01203B0041E45F /* TableViewTestTests.m */; };
 		3E85194C1B0143D70041E45F /* JRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E85194B1B0143D70041E45F /* JRTableViewCell.m */; };
+		3E85194E1B0174D70041E45F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3E85194D1B0174D70041E45F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		3E8519401B01203B0041E45F /* TableViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestTests.m; sourceTree = "<group>"; };
 		3E85194A1B0143D70041E45F /* JRTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTableViewCell.h; sourceTree = "<group>"; };
 		3E85194B1B0143D70041E45F /* JRTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTableViewCell.m; sourceTree = "<group>"; };
+		3E85194D1B0174D70041E45F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		3E8519181B01203B0041E45F = {
 			isa = PBXGroup;
 			children = (
+				3E85194D1B0174D70041E45F /* README.md */,
 				3E8519231B01203B0041E45F /* TableViewTest */,
 				3E85193D1B01203B0041E45F /* TableViewTestTests */,
 				3E8519221B01203B0041E45F /* Products */,
@@ -226,6 +229,7 @@
 			files = (
 				3E85192D1B01203B0041E45F /* ViewController.m in Sources */,
 				3E85192A1B01203B0041E45F /* AppDelegate.m in Sources */,
+				3E85194E1B0174D70041E45F /* README.md in Sources */,
 				3E8519271B01203B0041E45F /* main.m in Sources */,
 				3E85194C1B0143D70041E45F /* JRTableViewCell.m in Sources */,
 			);
