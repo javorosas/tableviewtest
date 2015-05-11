@@ -7,12 +7,39 @@
 //
 
 #import "ViewController.h"
+#import "JRTableViewCell.h"
 
-@interface ViewController ()
-
+@interface TableViewController ()
+	
 @end
 
-@implementation ViewController
+@implementation TableViewController
+
+static NSString *CellIdentifier = @"CellIdentifier";
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 5;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    JRTableViewCell *cell = (JRTableViewCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    // Configure cell
+    cell.mainLabel.text = [NSString stringWithFormat:@"Row %li in Section %li", indexPath.row, indexPath.section];
+    
+    return cell;
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    return NO;
+}
+
+- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
+    return NO;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

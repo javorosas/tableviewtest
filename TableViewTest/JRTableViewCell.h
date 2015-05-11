@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JRTableViewCell.h
 //  TableViewTest
 //
 //  Created by Javier Rosas on 5/11/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TableViewController : UITableViewController
+@interface JRTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *mainLabel;
 
 @end
-
